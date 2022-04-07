@@ -1,0 +1,70 @@
+{
+    "serverCode": "200",
+    "serverMsg": "200 OK",
+    "results": [
+        {
+            "bannerId": 1,
+            "bannerGroupCodeId": "MAIN",
+            "bannerGroupCodeName": "메인",
+            "bannerCodeId": "MAIN_TOP",
+            "bannerCodeName": "메인 탑 배너",
+            "description": "메인 화면 탑 비주얼 배너 1",
+            "mainUseYn": false,
+            "thumbnailLinkUseYn": true,
+            "thumbnailLinkUrl": "https://www.purpledog.cloud/",
+            "thumbnailImageUrl": "https://purpledog-public.s3.ap-northeast-2.amazonaws.com/product/1/bannerThumbnail/home01_20220404045455.png",
+            "useYn": true,
+            "sortingOrder": 1,
+            "updateId": 1,
+            "updateDate": "2022-04-04T13:57:12"
+        },
+        {
+            "bannerId": 19,
+            "bannerGroupCodeId": "MAIN",
+            "bannerGroupCodeName": "메인",
+            "bannerCodeId": "MAIN_TOP",
+            "bannerCodeName": "메인 탑 배너",
+            "description": "메인 화면 탑 비주얼 배너 2",
+            "mainUseYn": true,
+            "thumbnailLinkUseYn": false,
+            "thumbnailLinkUrl": "https://www.purpledog.cloud/",
+            "thumbnailImageUrl": "https://purpledog-public.s3.ap-northeast-2.amazonaws.com/product/19/bannerThumbnail/20200513175610828_9_20220405041556.jpg",
+            "useYn": true,
+            "sortingOrder": 2,
+            "updateId": 1,
+            "updateDate": "2022-04-05T13:15:59"
+        },
+        {
+            "bannerId": 20,
+            "bannerGroupCodeId": "MAIN",
+            "bannerGroupCodeName": "메인",
+            "bannerCodeId": "MAIN_TOP",
+            "bannerCodeName": "메인 탑 배너",
+            "description": "메인 화면 탑 비주얼 배너 3",
+            "mainUseYn": false,
+            "thumbnailLinkUseYn": false,
+            "thumbnailLinkUrl": "https://www.purpledog.cloud/",
+            "thumbnailImageUrl": "https://purpledog-public.s3.ap-northeast-2.amazonaws.com/product/20/bannerThumbnail/4_20220405041656.jpg",
+            "useYn": true,
+            "sortingOrder": 3,
+            "updateId": 1,
+            "updateDate": "2022-04-05T13:17:07"
+        },
+        {
+            "bannerId": 21,
+            "bannerGroupCodeId": "MAIN",
+            "bannerGroupCodeName": "메인",
+            "bannerCodeId": "MAIN_TOP",
+            "bannerCodeName": "메인 탑 배너",
+            "description": "메인 화면 탑 비주얼 배너 4",
+            "mainUseYn": false,
+            "thumbnailLinkUseYn": false,
+            "thumbnailLinkUrl": "https://www.purpledog.cloud/",
+            "thumbnailImageUrl": "https://purpledog-public.s3.ap-northeast-2.amazonaws.com/product/21/bannerThumbnail/3_20220405041703.jpg",
+            "useYn": true,
+            "sortingOrder": 4,
+            "updateId": 1,
+            "updateDate": "2022-04-05T13:17:07"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "serverCode": "200",
+    "serverMsg": "200 OK",
+    "results": {
+        "EVENT_DESCRIPTION": {
+            "textId": 9502,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "EVENT_DESCRIPTION",
+            "description": "기획전 설명",
+            "content": "퍼플독에서만 만날 수 있는 기획전, 놓치지 마세요!",
+            "createId": 1,
+            "updateId": 1
+        },
+        "EVENT_TITLE": {
+            "textId": 9501,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "EVENT_TITLE",
+            "description": "기획전 타이틀",
+            "content": "기획전 모아보기",
+            "createId": 1,
+            "updateId": 1
+        },
+        "RECOMMEND_PRODUCT_2_DESCRIPTION": {
+            "textId": 9498,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "RECOMMEND_PRODUCT_2_DESCRIPTION",
+            "description": "메인 추천 세일 2 설명",
+            "content": "지금 가장 핫한 와인만 모아봤어요.",
+            "createId": 1,
+            "updateId": 1
+        },
+        "COUNTRY_WINE_TITLE": {
+            "textId": 9499,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "COUNTRY_WINE_TITLE",
+            "description": "국가별 와인 타이틀",
+            "content": "국가별 와인 살펴보기",
+            "createId": 1,
+            "updateId": 1
+        },
+        "PERSONAL_RECOMMEND_DESCRIPTON": {
+            "textId": 9494,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "PERSONAL_RECOMMEND_DESCRIPTON",
+            "description": "개인화 추천 설명",
+            "content": "회원님이 선택한 취향의 와인만 추천드려요.",
+            "createId": 1,
+            "updateId": 1
+        },
+        "RECOMMEND_PRODUCT_2_TITLTE": {
+            "textId": 9497,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "RECOMMEND_PRODUCT_2_TITLTE",
+            "description": "메인 추천 세일 2 타이틀",
+            "content": "퍼플독 인기와인",
+            "createId": 1,
+            "updateId": 1
+        },
+        "PERSONAL_RECOMMEND_TITLE": {
+            "textId": 9493,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "PERSONAL_RECOMMEND_TITLE",
+            "description": "개인화 추천 타이틀",
+            "content": "님께 맞는 와인",
+            "updateDate": "2022-03-15T17:40:33",
+            "createId": 1,
+            "updateId": 1
+        },
+        "RECOMMEND_PRODUCT_1_TITLE": {
+            "textId": 9495,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "RECOMMEND_PRODUCT_1_TITLE",
+            "description": "메인 추천 세일 1 타이틀",
+            "content": "지금만 이 가격이에요.",
+            "createId": 1,
+            "updateId": 1
+        },
+        "COUNTRY_WINE__DESCRIPTION": {
+            "textId": 9500,
+            "textGroupCodeId": "MAIN",
+            "textGroupCodeName": "메인",
+            "textCodeId": "COUNTRY_WINE__DESCRIPTION",
+            "description": "국가별 와인 텍스트",
+            "content": "지역에 따라 맛과 특징이 다른 와인을 살펴보세요",
+            "createId": 1,
+            "updateId": 1
+        }
+    }
+}
