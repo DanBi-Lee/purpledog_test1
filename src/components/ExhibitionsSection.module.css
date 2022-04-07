@@ -1,0 +1,33 @@
+.exhibition__wrap {
+    padding: 0 0.15rem;
+}
+.exhibition{
+    position: relative;
+    background-size: cover;
+}
+.exhibition::before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+}
+.exhibition__text {
+    position: absolute;
+    bottom: 0.26rem;
+    left: 0.15rem;
+}
+.exhibition__title {
+    letter-spacing: -0.0036rem;
+    color: #ffffff;
+    font-size: 0.18rem;
+    font-weight: 700;
+    line-height: 1.44;
+}
+.exhibition__date {
+    margin-top: 0.04rem;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 0.13rem;
+    line-height: 1.46;
+}

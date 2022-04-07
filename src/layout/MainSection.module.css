@@ -1,0 +1,16 @@
+.section__header {
+    padding: 0 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.section__header h2 {
+    font-size: 0.18rem;
+    letter-spacing: -0.0018rem;
+    font-weight: 700;
+}
+.section__header p {
+    margin-top: 0.02rem;
+    letter-spacing: -0.0013rem;
+    font-size: 0.13rem;
+    color: #333333;
+    font-weight: 400;
+}

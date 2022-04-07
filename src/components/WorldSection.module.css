@@ -1,0 +1,13 @@
+.country__list_wrap {
+    padding: 0 0.15rem;
+}
+.country__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country__list  li {
+    width :calc((100% - 0.1rem) / 2);
+    margin-bottom: 0.1rem;
+}

@@ -1,0 +1,17 @@
+.header_box {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.5rem;
+    width: 100%;
+    max-width: inherit;
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+.header_box .icon_button + .icon_button  {
+    margin-left: 0.1rem;
+}

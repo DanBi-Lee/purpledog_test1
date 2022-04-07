@@ -1,0 +1,19 @@
+.icon_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.icon_button .badge{
+    min-width: 8px;
+    min-height: 8px;
+    position: absolute;
+    background-color: #FF0045;
+    top: -2px;
+    right: -4px;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-size: 10px;
+    color: #fff;
+    box-sizing: border-box;
+}

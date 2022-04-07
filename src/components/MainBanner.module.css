@@ -1,0 +1,8 @@
+/* main_banner */
+.main_banner {
+    background-color: #666;
+    width: 100%;
+}
+.main_banner .slide {
+    padding-top: 100%;
+}

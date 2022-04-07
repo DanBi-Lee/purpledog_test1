@@ -1,0 +1,19 @@
+.recommend_section {
+    padding-top: 0.32rem;
+    margin-top: -0.13rem;
+    background-color: #fff;
+    border-radius: 0.15rem 0.15rem 0 0;
+}
+
+.product__list_wrap {
+    width: 100%;
+    overflow: hidden;
+}
+.product__list {
+    display: flex;
+    width: 120%;
+}
+.product__list li {
+    width: 33.3333%;
+    margin-left: 0.15rem;
+}
