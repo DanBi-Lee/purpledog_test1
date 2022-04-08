@@ -6,7 +6,7 @@ import MainBanner from '../components/MainBanner';
 import PopularitySection from '../components/PopularitySection';
 import RecommendSection from '../components/RecommendSection';
 import SubBannerSection from '../components/SubBannerSection';
-import TImeDealSection from '../components/TImeDealSection';
+import TimeDealSection from '../components/TimeDealSection';
 import WorldSection from '../components/WorldSection';
 import Main from '../layout/Main';
 function MainPages () {
@@ -17,7 +17,7 @@ function MainPages () {
           <Main>
               <MainBanner />
               <RecommendSection />
-              <TImeDealSection />
+              <TimeDealSection />
               <SubBannerSection />
               <WorldSection />
               <ExhibitionsSection />

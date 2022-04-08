@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.product__list li {
+.product__list article {
     width: calc(50% - 0.1rem);
     margin-bottom: 0.28rem;
 }

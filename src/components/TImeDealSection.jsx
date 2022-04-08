@@ -1,24 +1,35 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import useHTTP from '../hooks/useHTTP';
 import MainSection from '../layout/MainSection';
-import ProductItem from './product/ProductItem';
 import styles from "./TimeDealSection.module.css";
+import {getProducts} from "../api/products";
+import ProductList from './product/ProductList';
 
-function TImeDealSection() {
+function TimeDealSection() {
+    const {state, fetchData} = useHTTP(getProducts);
+    useEffect(() => {
+        fetchData("time_sale_wine.json");
+    }, [fetchData]);
+
     return (
-        <MainSection title="지금만 이 가격이에요." description="와인을 정기 구독중인 회원님에게만 드려요." className={styles.time_deal__section} >
+        <MainSection
+            title="지금만 이 가격이에요."
+            description="와인을 정기 구독중인 회원님에게만 드려요."
+            className={styles.time_deal__section}>
             <article className={styles.banner}>
                 <h2 className='hidden'>중간배너</h2>
                 중간배너 내용
             </article>
-            <div className={styles.product__list_wrap}>
-                <ul className={styles.product__list}>
-                    <ProductItem type="list" use_time_deal={true} />
-                    <ProductItem type="list" use_time_deal={true} />
-                    <ProductItem type="list" use_time_deal={true} />
-                </ul>
-            </div>
+            <ProductList
+                inherited_styles={styles}
+                state={state}
+                product_type
+                ={{
+                use_time_deal: true,
+                type: "list"
+            }}/>
         </MainSection>
     );
 }
 
-export default TImeDealSection;
+export default TimeDealSection;

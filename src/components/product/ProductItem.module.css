@@ -1,12 +1,20 @@
+.product_thumb__wrap {
+    background: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    background-position: center;
+    background-color: #f7f7f7;
+    border-radius: 0.05rem;
+}
+
 .product_thumb__wrap::before {
     content: ' ';
     display: block;
     padding-top: 120%;
-    background-color: #ddd;
-    border-radius: 0.06rem;
 }
 
 .product_info {
+    width: 100%;
     padding-top: 0.08rem;
 }
 .category {
@@ -77,26 +85,4 @@
 
 .product__item__list .product_info {
     padding: 0;
-}
-
-/* deal_timer */
-.deal_timer {
-    display: flex;
-    width: fit-content;
-    align-items: center;
-    margin-top: 0.05rem;
-    background-color: #FF0045;
-    font-size: 0.1rem;
-    color: #fff;
-    padding: 0.02rem 0.05rem;
-    border-radius: 0.03rem;
-    line-height: 1.5;
-}
-.deal_timer::before{
-    content: '';
-    display: inline-block;
-    width: 0.14rem;
-    height: 0.14rem;
-    background-image: url('../../assets/icons/icon_timer.svg');
-    margin-right: 0.02rem;
 }

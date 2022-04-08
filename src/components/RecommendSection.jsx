@@ -7,11 +7,11 @@ function RecommendSection() {
     return (
         <MainSection title="김새콤달콤님께 맞는 와인" description="회원님이 선택한 취향의 와인만 추천드려요." className={styles.recommend_section} >
             <div className={styles.product__list_wrap}>
-                <ul className={styles.product__list}>
+                <div className={styles.product__list}>
                     <ProductItem/>
                     <ProductItem/>
                     <ProductItem/>
-                </ul>
+                </div>
             </div>
         </MainSection>
     );
