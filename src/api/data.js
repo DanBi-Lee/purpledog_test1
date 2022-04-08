@@ -1,7 +1,7 @@
 // const url = process.env.REACT_APP_API_URL;
 const url = "http://localhost:3000/data/";
 
-export const getProducts = async (path) => {
+export const getData = async (path) => {
   try {
     const response = await fetch(`${url}${path}`);
     if (response.status !== 200) {

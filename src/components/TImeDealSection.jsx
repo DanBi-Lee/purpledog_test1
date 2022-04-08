@@ -2,11 +2,11 @@ import React, {useEffect} from 'react';
 import useHTTP from '../hooks/useHTTP';
 import MainSection from '../layout/MainSection';
 import styles from "./TimeDealSection.module.css";
-import {getProducts} from "../api/products";
+import {getData} from "../api/data";
 import ProductList from './product/ProductList';
 
 function TimeDealSection() {
-    const {state, fetchData} = useHTTP(getProducts);
+    const {state, fetchData} = useHTTP(getData);
     useEffect(() => {
         fetchData("time_sale_wine.json");
     }, [fetchData]);
