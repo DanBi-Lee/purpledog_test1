@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/purpledog_test1/static/css/main.8cf9addd.css",
+    "main.js": "/purpledog_test1/static/js/main.e3ba0241.js",
+    "static/media/exhibition_01.png": "/purpledog_test1/static/media/exhibition_01.14f3070abbbd600dc6dc.png",
+    "static/media/country_06.png": "/purpledog_test1/static/media/country_06.07dde4318fdfe58f1ff2.png",
+    "static/media/country_04.png": "/purpledog_test1/static/media/country_04.8f783a4e1f26e6054194.png",
+    "static/media/country_01.png": "/purpledog_test1/static/media/country_01.6dc0f88db9ad608de8a0.png",
+    "static/media/country_05.png": "/purpledog_test1/static/media/country_05.d1a286bc5b91e752eadd.png",
+    "static/media/country_02.png": "/purpledog_test1/static/media/country_02.561e6aa79d8dc7a52b9e.png",
+    "static/media/country_03.png": "/purpledog_test1/static/media/country_03.79445bc2e5e9380f11d2.png",
+    "static/media/icon_category_nav.svg": "/purpledog_test1/static/media/icon_category_nav.45018fe21105f60e32a7003f303b7610.svg",
+    "static/media/icon_timer.svg": "/purpledog_test1/static/media/icon_timer.ccce8cc32fa987c0adbe.svg",
+    "static/media/icon_magazine_nav.svg": "/purpledog_test1/static/media/icon_magazine_nav.fc825e58cbf62c667ba01a9ee8a2a3ac.svg",
+    "static/media/icon_feed_nav.svg": "/purpledog_test1/static/media/icon_feed_nav.b2f2b859a8b3c6b14f792a9c6ff58702.svg",
+    "static/media/icon_notice.svg": "/purpledog_test1/static/media/icon_notice.d62280dd7481f40ff23db6ca86159c53.svg",
+    "static/media/icon_mypage_nav.svg": "/purpledog_test1/static/media/icon_mypage_nav.5f1d5255f966c89f63e8b644265c5374.svg",
+    "static/media/icon_cart.svg": "/purpledog_test1/static/media/icon_cart.2782b24bad4446a5fad952a10a2ce92f.svg",
+    "index.html": "/purpledog_test1/index.html",
+    "static/media/icon_home_nav-active.svg": "/purpledog_test1/static/media/icon_home_nav-active.379cb1e3f6e86323201fdc9b95fa4406.svg",
+    "static/media/icon_search.svg": "/purpledog_test1/static/media/icon_search.d8adcb6a4b71ef89ae8ad1436f7415cd.svg",
+    "main.8cf9addd.css.map": "/purpledog_test1/static/css/main.8cf9addd.css.map",
+    "main.e3ba0241.js.map": "/purpledog_test1/static/js/main.e3ba0241.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cf9addd.css",
+    "static/js/main.e3ba0241.js"
+  ]
+}
