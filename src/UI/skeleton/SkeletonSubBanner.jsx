@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './SkeletonSubBanner.module.css';
 
 function SkeletonSubBanner ({inheritedStyles, isError=false}) {
-    console.log(isError);
     return (
         <article className={[inheritedStyles.banner, styles.banner].join(" ")}>
             <h2 className='hidden'>중간배너</h2>

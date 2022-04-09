@@ -8,7 +8,7 @@ import { getData } from '../api/data';
 function PopularSection({titleState}) {
   const {state : productsState, fetchData: fetchProducts} = useHTTP(getData);
   useEffect(() => {
-      fetchProducts("popularwine.json");
+      fetchProducts(process.env.REACT_APP_URL_PATH_POPULAR_WINE);
   }, [fetchProducts]);
 
     return (

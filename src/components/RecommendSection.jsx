@@ -8,7 +8,7 @@ import styles from './RecommendSection.module.css';
 function RecommendSection({titleState}) {
     const {state : productsState, fetchData: fetchProducts} = useHTTP(getData);
     useEffect(() => {
-        fetchProducts("wine_recommend.json");
+        fetchProducts(process.env.REACT_APP_URL_PATH_RECOMMEND_WINE);
     }, [fetchProducts]);
 
     return (

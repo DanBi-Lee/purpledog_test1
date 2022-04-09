@@ -9,11 +9,11 @@ import SubBanner from './banner/SubBanner';
 function TimeDealSection({titleState}) {
     const {state : productsState, fetchData: fetchProducts} = useHTTP(getData);
     useEffect(() => {
-        fetchProducts("time_sale_wine.json");
+        fetchProducts(process.env.REACT_APP_URL_PATH_TIME_SALE);
     }, [fetchProducts]);
     const {state : bannerState, fetchData: fetchBanner} = useHTTP(getData);
     useEffect(() => {
-        fetchBanner("main_banner/main_sub_1.json");
+        fetchBanner(process.env.REACT_APP_URL_PATH_SUB_BANNER_1);
     }, [fetchBanner]);
 
     return (

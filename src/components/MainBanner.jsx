@@ -12,7 +12,7 @@ function MainBanner() {
     const {state, fetchData} = useHTTP(getData);
 
     useEffect(() => {
-        fetchData("main_banner/main_top.json");
+        fetchData(process.env.REACT_APP_URL_PATH_MAIN_BANNER);
     }, [fetchData]);
 
     if (state.isLoading) {

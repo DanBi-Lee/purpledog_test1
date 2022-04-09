@@ -14,7 +14,7 @@ import Main from '../layout/Main';
 function MainPages() {
     const {state: titleState, fetchData} = useHTTP(getData);
     useEffect(() => {
-        fetchData("text_data/main.json");
+        fetchData(process.env.REACT_APP_URL_PATH_MAIN_TEXT);
     }, [fetchData]);
     
     return ( <> 

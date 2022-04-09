@@ -1,5 +1,4 @@
-// const url = process.env.REACT_APP_API_URL;
-const url = "http://localhost:3000/data/";
+const url = process.env.REACT_APP_URL;
 
 export const getData = async (path) => {
   try {

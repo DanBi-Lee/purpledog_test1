@@ -7,7 +7,7 @@ import styles from "./SubBannerSection.module.css";
 function SubBannerSection() {
     const {state : bannerState, fetchData: fetchBanner} = useHTTP(getData);
     useEffect(() => {
-        fetchBanner("main_banner/main_sub_2.json");
+        fetchBanner(process.env.REACT_APP_URL_PATH_SUB_BANNER_2);
     }, [fetchBanner]);
     return (
         <section className={styles.sub_banner__section}>

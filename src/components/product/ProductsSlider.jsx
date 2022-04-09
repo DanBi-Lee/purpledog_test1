@@ -7,8 +7,6 @@ import styles from './ProductsSlider.module.css';
 import "swiper/css";
 
 function ProductsSlider({state}) {
-    console.log(state);
-
     if (state?.isLoading) {
         return (
             <div className={styles.state_message}>
@@ -26,7 +24,6 @@ function ProductsSlider({state}) {
         );
     }
     if (!(state?.data && state.data?.results)) {
-        console.log(state.data);
         return (
             <div className={styles.state_message}>
                 ⚠
