@@ -1,6 +1,6 @@
 .product_thumb__wrap {
     background: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     box-sizing: border-box;
     background-position: center;
     background-color: #f7f7f7;

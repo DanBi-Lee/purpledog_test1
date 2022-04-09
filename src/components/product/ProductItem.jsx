@@ -29,7 +29,7 @@ function ProductItem({type = "card", number_of_title_line=2, use_time_deal=false
             <div className={styles.product_info}>
                 <p className={styles.category}>
                     <span>{countryName}</span>
-                    {wineTypeName&&<span>${wineTypeName}와인</span>}
+                    {wineTypeName&&<span>{wineTypeName}와인</span>}
                 </p>
                 <h3 className={styles.title} style={{WebkitLineClamp : number_of_title_line}}>
                     {name||wineryName}
