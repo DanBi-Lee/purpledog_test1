@@ -1,4 +1,6 @@
 .recommend_section {
+    position: relative;
+    z-index: 10;
     padding-top: 0.32rem;
     margin-top: -0.13rem;
     background-color: #fff;

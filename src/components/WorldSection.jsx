@@ -9,9 +9,9 @@ import country04 from "../assets/country/country_04.png";
 import country05 from "../assets/country/country_05.png";
 import country06 from "../assets/country/country_06.png";
 
-function WorldSection () {
+function WorldSection ({titleState}) {
   return (
-      <MainSection title="국가별 와인 살펴보기" description="지역에 따라 맛과 특징이 다른 와인을 살펴보세요." style={{marginTop: '0.34rem'}}>
+      <MainSection state={titleState} title={titleState.data?.results?.COUNTRY_WINE_TITLE?.content} description={titleState.data?.results?.COUNTRY_WINE__DESCRIPTION?.content} style={{marginTop: '0.34rem'}}>
           <div className={styles.country__list_wrap}>
               <ul className={styles.country__list}>
                   <CountryItem title="프랑스" image={country01} />

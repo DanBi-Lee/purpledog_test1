@@ -5,7 +5,7 @@ import styles from "./TimeDealSection.module.css";
 import {getData} from "../api/data";
 import ProductList from './product/ProductList';
 
-function TimeDealSection() {
+function TimeDealSection({titleState}) {
     const {state, fetchData} = useHTTP(getData);
     useEffect(() => {
         fetchData("time_sale_wine.json");
@@ -13,8 +13,9 @@ function TimeDealSection() {
 
     return (
         <MainSection
-            title="지금만 이 가격이에요."
-            description="와인을 정기 구독중인 회원님에게만 드려요."
+            title={titleState.data?.results?.RECOMMEND_PRODUCT_1_TITLE?.content}
+            description={"와인을 정기 구독중인 회원님에게만 드려요."}
+            state={titleState}
             className={styles.time_deal__section}>
             <article className={styles.banner}>
                 <h2 className='hidden'>중간배너</h2>
