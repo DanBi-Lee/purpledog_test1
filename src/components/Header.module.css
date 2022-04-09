@@ -10,6 +10,14 @@
     padding: 0 15px;
     box-sizing: border-box;
     z-index: 9999;
+    background-color: transparent;
+    transition: background-color 300ms;
+}
+.header_box.header_box__scroll {
+    background-color: #fff;
+}
+.header_box.header_box__scroll .icon_button  img {
+    filter: brightness(0);
 }
 
 .header_box .icon_button + .icon_button  {

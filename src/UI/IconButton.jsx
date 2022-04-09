@@ -22,4 +22,4 @@ function IconButton({
     );
 }
 
-export default IconButton;
+export default React.memo(IconButton);
