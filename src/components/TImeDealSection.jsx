@@ -4,12 +4,17 @@ import MainSection from '../layout/MainSection';
 import styles from "./TimeDealSection.module.css";
 import {getData} from "../api/data";
 import ProductList from './product/ProductList';
+import SubBanner from './banner/SubBanner';
 
 function TimeDealSection({titleState}) {
-    const {state, fetchData} = useHTTP(getData);
+    const {state : productsState, fetchData: fetchProducts} = useHTTP(getData);
     useEffect(() => {
-        fetchData("time_sale_wine.json");
-    }, [fetchData]);
+        fetchProducts("time_sale_wine.json");
+    }, [fetchProducts]);
+    const {state : bannerState, fetchData: fetchBanner} = useHTTP(getData);
+    useEffect(() => {
+        fetchBanner("main_banner/main_sub_1.json");
+    }, [fetchBanner]);
 
     return (
         <MainSection
@@ -17,13 +22,10 @@ function TimeDealSection({titleState}) {
             description={"와인을 정기 구독중인 회원님에게만 드려요."}
             state={titleState}
             className={styles.time_deal__section}>
-            <article className={styles.banner}>
-                <h2 className='hidden'>중간배너</h2>
-                중간배너 내용
-            </article>
+            <SubBanner inheritedStyles={styles} state={bannerState} />
             <ProductList
                 inherited_styles={styles}
-                state={state}
+                state={productsState}
                 product_type
                 ={{
                 use_time_deal: true,

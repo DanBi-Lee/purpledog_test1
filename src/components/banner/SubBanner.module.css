@@ -1,0 +1,10 @@
+.banner {
+    margin: 0 0.15rem 0.15rem;
+    background-size: cover;
+    background-position: center;
+}
+.banner::before{
+    content: '';
+    display: block;
+    padding-top: 23.19%;
+}
