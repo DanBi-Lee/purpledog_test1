@@ -1,6 +1,8 @@
 import React from 'react';
 import SaleTimer from '../../UI/SaleTimer';
+import { addPriceComma } from '../../util/addPriceComma';
 import styles from './ProductItem.module.css';
+import SaleInfo from './SaleInfo';
 
 
 function ProductItem({type = "card", number_of_title_line=2, use_time_deal=false, product_data }) {
@@ -17,7 +19,7 @@ function ProductItem({type = "card", number_of_title_line=2, use_time_deal=false
         product_data = { name : "", salesPrice: 0, timeSalePrice:0 };
     }
 
-    let {name, countryName, salesPrice, timeSaleDiscountPercent, timeSalePrice,thumbnailImageUrl, wineTypeName, timeSaleEndDate  }= product_data;
+    let {name, countryName, salesPrice, timeSaleDiscountPercent, timeSalePrice,thumbnailImageUrl, wineTypeName, timeSaleEndDate, wineryName }= product_data;
     
 
     return (
@@ -30,15 +32,15 @@ function ProductItem({type = "card", number_of_title_line=2, use_time_deal=false
                     {wineTypeName&&<span>${wineTypeName}와인</span>}
                 </p>
                 <h3 className={styles.title} style={{WebkitLineClamp : number_of_title_line}}>
-                    {name}
+                    {name||wineryName}
                 </h3>
-                <p className={styles.price}>
-                    {timeSalePrice.toLocaleString()}원
-                </p>
-                <p>
-                    <span className={styles.price__discount}>{timeSaleDiscountPercent}%</span>
-                    <del className={styles.price__original}>{salesPrice.toLocaleString()}원</del>
-                </p>
+                {
+                    timeSaleDiscountPercent 
+                    ? <SaleInfo inherited_styles={styles} timeSalePrice={timeSalePrice} timeSaleDiscountPercent={timeSaleDiscountPercent} salesPrice={salesPrice} />
+                    : <p className={styles.price}>
+                        {addPriceComma(salesPrice)}원
+                    </p>
+                }
                 {
                     use_time_deal &&<SaleTimer endDate={timeSaleEndDate} />
                 }

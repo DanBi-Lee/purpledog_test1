@@ -1,0 +1,7 @@
+.swiper{
+    padding: 0 0.075rem;
+}
+.swiper :global(.swiper-slide){
+    width: 38%;
+    padding: 0 0.075rem;
+}
