@@ -1,12 +1,14 @@
 import React from 'react';
-import { timer } from '../util/timer';
+import useTimer from '../hooks/useTimer';
 import styles from './SaleTimer.module.css';
 
 
 function SaleTimer ({endDate}) {
+  const time = useTimer(endDate);
+
   return (
     <p className={styles.deal_timer}>
-        {`${timer(endDate)} 남음`}
+        {`${time} 남음`}
     </p>
   );
 }
