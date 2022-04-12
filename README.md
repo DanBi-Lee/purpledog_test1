@@ -41,6 +41,46 @@
 2. `npm run start` : 개발모드에서 앱 실행
 3. 혹은 https://danbi-lee.github.io/purpledog_test1/ 링크를 통해 배포된 프로젝트를 확인하실 수 있습니다.
 
+## 파일 구조
+
+```
+📦src
+ ┣ 📂api → API 요청 파일
+ ┣ 📂assets → 이미지 파일
+ ┣ 📂components → 컴포넌트
+ ┃ ┣ 📂banner
+ ┃ ┣ 📂category
+ ┃ ┣ 📂product
+ ┃ ┣ 📜BottomNavigation.jsx
+ ┃ ┣ 📜BottomNavigation.module.css
+ ┃ ┣ 📜ExhibitionsSection.jsx
+ ┃ ┣ 📜ExhibitionsSection.module.css
+ ┃ ┣ 📜Header.jsx
+ ┃ ┣ 📜Header.module.css
+ ┃ ┣ 📜MainBanner.jsx
+ ┃ ┣ 📜MainBanner.module.css
+ ┃ ┣ 📜PopularSection.jsx
+ ┃ ┣ 📜PopularSection.module.css
+ ┃ ┣ 📜RecommendSection.jsx
+ ┃ ┣ 📜RecommendSection.module.css
+ ┃ ┣ 📜SubBannerSection.jsx
+ ┃ ┣ 📜SubBannerSection.module.css
+ ┃ ┣ 📜TimeDealSection.jsx
+ ┃ ┣ 📜TimeDealSection.module.css
+ ┃ ┣ 📜WorldSection.jsx
+ ┃ ┗ 📜WorldSection.module.css
+ ┣ 📂hooks → 커스텀 훅
+ ┣ 📂layout → 템플릿으로 사용할 컴포넌트
+ ┣ 📂pages → 메인 페이지
+ ┣ 📂style → global로 적용될 css파일
+ ┣ 📂UI → 범용으로 재사용할 수 있는 컴포넌트
+ ┣ 📂util
+ ┃ ┣ 📜addPriceComma.js
+ ┃ ┗ 📜timer.js
+ ┣ 📜App.js
+ ┗ 📜index.js
+```
+
 ## 구현사항 소개
 
 > 과제 가이드 상 필수 구현요소라고 판단되는 부분은 **굵은 글씨**로 표시했습니다.
@@ -71,7 +111,7 @@
     - [[#11] 와인 추천 영역 슬라이드 기능 추가
       [#5] 와인 추천(어울리는 와인 조회) 데이터 연결](https://github.com/DanBi-Lee/purpledog_test1/commit/b8e51a1f35d659b24c74c82ec813474baec34265)
 
-      > - 와인 추천(어울리는 와인 조회) API 상에 `name`이 존재하지 않아서 와인 데이터에 `name`이 없을 경우 `wineryName`이 노출되도록 만들었습니다.
+      > - 와인 추천(어울리는 와인 조회) API 상에 `name`이 존재하지 않아서, 와인 데이터에 `name`을 표시할 수 없을 경우 `wineryName`이 노출되도록 만들었습니다
       > - `timeSaleDiscountPercent `의 유무에 따라 와인 상품의 할인 여부를 구분할 수 있도록 만들었습니다.
       > - 상품 가격에 `,`표시를 하는 (ex. 1000 → 1,000) 유틸함수를 만들었습니다.
 
@@ -93,7 +133,7 @@
 - **중간 배너**
 
   - **API 호출**
-  - [[#10] 중간 배너 데이터 연결](https://github.com/DanBi-Lee/purpledog_test1/commit/628e7bbef9a98483f8a147c5bb94589369f9352b)
+    - [[#10] 중간 배너 데이터 연결](https://github.com/DanBi-Lee/purpledog_test1/commit/628e7bbef9a98483f8a147c5bb94589369f9352b)
 
 - **인기 와인**
 
