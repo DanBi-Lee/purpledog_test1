@@ -5,31 +5,22 @@ import ProductItem from './ProductItem';
 import styles from './ProductsSlider.module.css';
 
 import "swiper/css";
+import SkelotonProductList from '../../UI/skeleton/SkelotonProductList';
 
 function ProductsSlider({state}) {
     if (state?.isLoading) {
         return (
-            <div className={styles.state_message}>
-                로딩중
-            </div>
+            <SkelotonProductList />
         );
     }
     if (state?.error) {
         return (
-            <div className={styles.state_message}>
-                ⚠
-                <br/>
-                오류가 발생했습니다.
-            </div>
+            <SkelotonProductList isError={true} />
         );
     }
     if (!(state?.data && state.data?.results)) {
         return (
-            <div className={styles.state_message}>
-                ⚠
-                <br/>
-                데이터가 존재하지 않습니다.
-            </div>
+            <SkelotonProductList isError={true} />
         );
     }
 
