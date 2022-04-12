@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/purpledog_test1/static/css/main.8cf9addd.css",
-    "main.js": "/purpledog_test1/static/js/main.c3d40e62.js",
+    "main.css": "/purpledog_test1/static/css/main.ad5debde.css",
+    "main.js": "/purpledog_test1/static/js/main.b42c86bb.js",
     "static/media/exhibition_01.png": "/purpledog_test1/static/media/exhibition_01.14f3070abbbd600dc6dc.png",
     "static/media/country_06.png": "/purpledog_test1/static/media/country_06.07dde4318fdfe58f1ff2.png",
     "static/media/country_04.png": "/purpledog_test1/static/media/country_04.8f783a4e1f26e6054194.png",
@@ -19,11 +19,11 @@
     "index.html": "/purpledog_test1/index.html",
     "static/media/icon_home_nav-active.svg": "/purpledog_test1/static/media/icon_home_nav-active.379cb1e3f6e86323201fdc9b95fa4406.svg",
     "static/media/icon_search.svg": "/purpledog_test1/static/media/icon_search.d8adcb6a4b71ef89ae8ad1436f7415cd.svg",
-    "main.8cf9addd.css.map": "/purpledog_test1/static/css/main.8cf9addd.css.map",
-    "main.c3d40e62.js.map": "/purpledog_test1/static/js/main.c3d40e62.js.map"
+    "main.ad5debde.css.map": "/purpledog_test1/static/css/main.ad5debde.css.map",
+    "main.b42c86bb.js.map": "/purpledog_test1/static/js/main.b42c86bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf9addd.css",
-    "static/js/main.c3d40e62.js"
+    "static/css/main.ad5debde.css",
+    "static/js/main.b42c86bb.js"
   ]
 }
